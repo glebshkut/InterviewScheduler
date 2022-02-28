@@ -20,7 +20,7 @@ export default function Application(props) {
     };
     return axios.delete(`/api/appointments/${id}`)
       .then(() => {
-        setState({...state, appointments});
+        setState({ ...state, appointments });
       })
   }
 
@@ -35,7 +35,7 @@ export default function Application(props) {
     };
     return axios.put(`/api/appointments/${id}`, appointment)
       .then(() => {
-        setState({...state, appointments});
+        setState({ ...state, appointments });
       })
   }
 
