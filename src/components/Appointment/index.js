@@ -78,8 +78,8 @@ export default function Appointment(props) {
       {mode === CONFIRM && (
         <Confirm 
           onCancel={() => transition(SHOW)}
-          onConfirm={onDelete}
-          id={props.id}
+          onConfirm={() => onDelete(props.id)}
+          // id={props.id}
         />
       )}
     </article>
