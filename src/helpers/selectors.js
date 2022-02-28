@@ -15,7 +15,7 @@ export function getInterviewersForDay(state, day) {
   for (const dayInfo of state.days) {
     if (dayInfo.name === day) {
       for (const appointment of dayInfo.appointments) {
-        result.push(state.appointments[appointment]);
+        result.push(state.interviewers[appointment]);
       }
     }
   }
