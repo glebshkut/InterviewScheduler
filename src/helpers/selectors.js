@@ -22,7 +22,7 @@ export function getInterviewersForDay(state, day) {
   const result = [];
   for (const dayInfo of state.days) {
     if (dayInfo.name === day) {
-      for (const interviewersId of dayInfo.interviewers) {
+      for (const interviewersId of dayInfo["interviewers"]) {
         result.push(state.interviewers[interviewersId]);
       }
     }
