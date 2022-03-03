@@ -26,14 +26,14 @@ deploy:
   working_directory: ~/client
 
   steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "82:83:50:70:aa:43:97:00:88:34:87:61:99:45:16:9d"
-      - checkout
-      - run:
-          name: Push Master to Production
-          command: |
-            git push https://github.com/glebshkut/InterviewScheduler master:production
+    - add_ssh_keys:
+        fingerprints:
+          - "82:83:50:70:aa:43:97:00:88:34:87:61:99:45:16:9d"
+    - checkout
+    - run:
+        name: Push Master to Production
+        command: |
+          git push https://github.com/glebshkut/InterviewScheduler master:production
 
 workflows:
   version: 2
