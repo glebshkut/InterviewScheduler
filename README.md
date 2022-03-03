@@ -24,7 +24,7 @@ npm run storybook
 
 ### Screenshots
 
-!["Editing"]()
-!["Saving"]()
-!["Delete Confirm"]()
-!["Deleting"]()
+!["Editing"](https://github.com/glebshkut/InterviewScheduler/blob/master/docs/Editing.png)
+!["Saving"](https://github.com/glebshkut/InterviewScheduler/blob/master/docs/Saving.png)
+!["Delete Confirm"](https://github.com/glebshkut/InterviewScheduler/blob/master/docs/Delete%20Confirm.png)
+!["Deleting"](https://github.com/glebshkut/InterviewScheduler/blob/master/docs/Deleting.png)
