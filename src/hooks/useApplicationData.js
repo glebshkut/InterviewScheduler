@@ -1,6 +1,4 @@
-import React from "react";
 import axios from "axios";
-import { getAppointmentsForDay, getDayId, getInterview, getInterviewersForDay } from "helpers/selectors";
 const { useState, useEffect } = require("react");
 
 

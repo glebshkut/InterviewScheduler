@@ -1,4 +1,3 @@
-import React from "react";
 const { useState } = require("react");
 
 export default function useVisualMode(initial) {
