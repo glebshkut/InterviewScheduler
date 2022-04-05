@@ -1,4 +1,6 @@
 # Interview Scheduler
+## Description
+React-based web app to create meetings for students to connect with mentors in real-time.
 
 ## Setup
 
